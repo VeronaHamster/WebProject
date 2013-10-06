@@ -174,7 +174,7 @@ public class UploadFile extends HttpServlet {
 		try {
 			proc.waitFor();
 		} catch (InterruptedException e) {
-			System.err.println(Exeptions.ERROR_PROCES);
+			System.err.println(Exceptions.ERROR_PROCES);
 		}
 		// Note: proc.exitValue() returns the exit value.
 		// (Use if required)
